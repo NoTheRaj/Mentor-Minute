@@ -4,7 +4,7 @@ A per-minute career mentorship platform where **Seekers** talk to working
 professionals (**Guides**) by chat or video and pay only for the minutes
 they use. Inspired by the Amigzo model. Built as a B.Tech 3rd year project.
 
-**Live demo:** _add your Render link here after deployment_
+**Live demo:** https://mentor-minute.onrender.com
 
 ## Features
 - Home page, separate Login/Register pages, and role-based dashboards
