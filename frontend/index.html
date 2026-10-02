@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MentorMinute | Per-minute career mentorship</title>
+<meta name="description" content="Talk to working professionals by chat or video and pay only for the minutes you use.">
+<link rel="stylesheet" href="/css/style.css">
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner" id="navbar"></div>
+</header>
+
+<main id="app"></main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <a class="logo" href="#/" onclick="jump('top');return false"><span class="logo-mark">M</span>MentorMinute</a>
+      <p class="muted small">A B.Tech student project: per-minute career mentorship with chat, video and wallet billing.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#/" onclick="jump('how');return false">How it works</a>
+      <a href="#/" onclick="jump('features');return false">Features</a>
+      <a href="#/login">Login</a>
+      <a href="#/register">Register</a>
+    </div>
+  </div>
+</footer>
+
+<div id="modal" class="modal" hidden></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
